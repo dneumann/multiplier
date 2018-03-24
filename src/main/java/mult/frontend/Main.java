@@ -16,12 +16,12 @@ import mult.core.Multiplier;
 public class Main {
 
 	public static void main(String[] args) {
-		UIManager.put("Label.font", new Font("Sans", Font.PLAIN, 42));
+		UIManager.put("Label.font", new Font("Sans", Font.PLAIN, 36));
 
 		JFrame f = new JFrame("Einmaleins");
 		f.setLayout(new GridLayout(2, 2));
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		f.setSize(900, 200);
+		f.setSize(1200, 200);
 
 		Multiplier mult = new Multiplier();
 		mult.createNewExercise();
